@@ -1,8 +1,8 @@
 const nome = "João";
-let xp = 5;
+let xp = 1500;
 let nivel = "";
 
-if (xp < 3) {
+if (xp < 1000) {
   nivel = "Ferro";
   console.log("O Herói de nome", nome, "está no nível de", nivel);
 } else if (xp >= 1001 && xp <= 2000) {
